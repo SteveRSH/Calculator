@@ -23,11 +23,9 @@ let input = document.querySelector("#view");
 
 
 
-clear.addEventListener("click", function() {input.innerHTML = "";});
+clear.addEventListener("click", function() {input.innerHTML ="";});
 
-num1.addEventListener("click", function() {input.innerHTML += '1';
-
-});
+num1.addEventListener("click", function() {input.innerHTML += '1';});
 
 num2.addEventListener("click", function() {input.innerHTML += '2';});
 
